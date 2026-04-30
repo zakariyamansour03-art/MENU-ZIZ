@@ -212,8 +212,8 @@
             const adresse = document.getElementById('clientAddress').value;
             const commande = document.getElementById('clientOrder').value;
 
-            const message = 🏪 *COMMANDE - CAFÉ ZIZ*\n━━━━━━━━━━━━━━━━\n👤 *Nom:* ${nom}\n📞 *Tel:* ${tel}\n📍 *Adresse:* ${adresse}\n━━━━━━━━━━━━━━━━\n🛒 *Commande:*\n${commande}\n━━━━━━━━━━━━━━━━\n🚛 Livraison GRATUITE ✓;
-            window.open(https://wa.me/212607350118?text=${encodeURIComponent(message)}, '_blank');
+            const message = `🏪 *COMMANDE - CAFÉ ZIZ*\n━━━━━━━━━━━━━━━━\n👤 *Nom:* ${nom}\n📞 *Tel:* ${tel}\n📍 *Adresse:* ${adresse}\n━━━━━━━━━━━━━━━━\n🛒 *Commande:*\n${commande}\n━━━━━━━━━━━━━━━━\n🚛 Livraison GRATUITE ✓`;
+            window.open(`https://wa.me/212607350118?text=${encodeURIComponent(message)}`, '_blank');
         }
     </script>
     <script src="translate.js"></script>
